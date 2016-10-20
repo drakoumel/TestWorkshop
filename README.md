@@ -27,3 +27,8 @@ If you do not have a local setup with at least php 5.6, please use the provided 
 `php vendor/bin/codecept generate:phpunit <suite> <ClassName>`
 
 E.g: `php vendor/bin/codecept generate:phpunit unit TestWorkshop/FizzBuzz/Foo`
+
+
+## Metrics
+
+`php vendor/bin/phpmetrics --report-html=fizzBuzzMetrics.html src --offline`

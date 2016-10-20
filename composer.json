@@ -3,7 +3,8 @@
     "type": "project",
     "require": {
         "codeception/codeception": "^2.2",
-        "phpunit/phpunit": "~5.6.1"
+        "phpunit/phpunit": "~5.6.1",
+        "phpmetrics/phpmetrics": "*"
     },
     "autoload": {
         "psr-4": {

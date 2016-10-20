@@ -7,10 +7,12 @@ namespace Composer\Autoload;
 class ComposerStaticInit4fe41954baf8cb42ffe0330738ecf39d
 {
     public static $files = array (
+        'd5e184bb3537ab5eb44dbd1454cfd70b' => __DIR__ . '/..' . '/hoa/core/Core.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        'a00a72f538bd4ee82872106169a4d37a' => __DIR__ . '/..' . '/phpmetrics/phpmetrics/compatibility.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -35,11 +37,13 @@ class ComposerStaticInit4fe41954baf8cb42ffe0330738ecf39d
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Yaml\\' => 23,
             'Symfony\\Component\\Finder\\' => 25,
+            'Symfony\\Component\\Filesystem\\' => 29,
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\DomCrawler\\' => 29,
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'Symfony\\Component\\Config\\' => 25,
             'Symfony\\Component\\BrowserKit\\' => 29,
         ),
         'P' => 
@@ -50,6 +54,19 @@ class ComposerStaticInit4fe41954baf8cb42ffe0330738ecf39d
         'I' => 
         array (
             'IntegrationTest\\' => 16,
+        ),
+        'H' => 
+        array (
+            'Hoa\\Visitor\\' => 12,
+            'Hoa\\Ustring\\' => 12,
+            'Hoa\\Stream\\' => 11,
+            'Hoa\\Ruler\\' => 10,
+            'Hoa\\Regex\\' => 10,
+            'Hoa\\Math\\' => 9,
+            'Hoa\\Iterator\\' => 13,
+            'Hoa\\File\\' => 9,
+            'Hoa\\Core\\' => 9,
+            'Hoa\\Compiler\\' => 13,
         ),
         'G' => 
         array (
@@ -104,6 +121,10 @@ class ComposerStaticInit4fe41954baf8cb42ffe0330738ecf39d
         array (
             0 => __DIR__ . '/..' . '/symfony/finder',
         ),
+        'Symfony\\Component\\Filesystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/filesystem',
+        ),
         'Symfony\\Component\\EventDispatcher\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
@@ -124,6 +145,10 @@ class ComposerStaticInit4fe41954baf8cb42ffe0330738ecf39d
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
+        'Symfony\\Component\\Config\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/config',
+        ),
         'Symfony\\Component\\BrowserKit\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/browser-kit',
@@ -139,6 +164,46 @@ class ComposerStaticInit4fe41954baf8cb42ffe0330738ecf39d
         'IntegrationTest\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests/integration',
+        ),
+        'Hoa\\Visitor\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/visitor',
+        ),
+        'Hoa\\Ustring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/ustring',
+        ),
+        'Hoa\\Stream\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/stream',
+        ),
+        'Hoa\\Ruler\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/ruler',
+        ),
+        'Hoa\\Regex\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/regex',
+        ),
+        'Hoa\\Math\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/math',
+        ),
+        'Hoa\\Iterator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/iterator',
+        ),
+        'Hoa\\File\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/file',
+        ),
+        'Hoa\\Core\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/core',
+        ),
+        'Hoa\\Compiler\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hoa/compiler',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -175,11 +240,25 @@ class ComposerStaticInit4fe41954baf8cb42ffe0330738ecf39d
     );
 
     public static $prefixesPsr0 = array (
+        'T' => 
+        array (
+            'Twig_' => 
+            array (
+                0 => __DIR__ . '/..' . '/twig/twig/lib',
+            ),
+        ),
         'P' => 
         array (
             'Prophecy\\' => 
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
+            ),
+        ),
+        'H' => 
+        array (
+            'Hal\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/phpmetrics/phpmetrics/src',
             ),
         ),
         'B' => 
