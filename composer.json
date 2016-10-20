@@ -1,0 +1,21 @@
+{
+    "name": "newloki/test-workshop",
+    "type": "project",
+    "require": {
+        "codeception/codeception": "^2.2",
+        "phpunit/phpunit": "~5.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TestWorkshop\\": "src/TestWorkshop/",
+            "UnitTest\\": "tests/unit",
+            "IntegrationTest\\": "tests/integration"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alberto Assmann",
+            "email": "alberto.assmann@project-a.com"
+        }
+    ]
+}
